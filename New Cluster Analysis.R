@@ -48,6 +48,7 @@ library(cluster)
 clusplot(as, fit$cluster, color=TRUE, shade=TRUE, 
    labels=2, lines=0)
 
+#describe components used for cluster plot
 pcfit <- princomp(as)
 loadings(pcfit)
 
